@@ -10,6 +10,12 @@ TagManager:
   - liver
   - pancreas
   - Score
+  - bone
+  - boneb
+  - cornea
+  - skin
+  - BacktoMenu
+  - GameOver
   layers:
   - Default
   - TransparentFX
@@ -24,9 +30,9 @@ TagManager:
   - kidney
   - liver
   - pancreas
-  - 
-  - 
-  - 
+  - bone
+  - cornea
+  - skin
   - 
   - 
   - 

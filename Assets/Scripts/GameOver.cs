@@ -5,9 +5,13 @@ using UnityEngine.SceneManagement;
 
 public class GameOver : MonoBehaviour {
 
+    public int callingScence;
+
     public void TryAgain()
-    {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+    {  if (callingScence == SceneManager.GetActiveScene().buildIndex - 1)
+            SceneManager.LoadScene(1);
+        else
+            SceneManager.LoadScene(1);
     }
     public void MainMenu()
     {

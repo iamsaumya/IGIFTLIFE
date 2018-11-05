@@ -2,9 +2,11 @@ Android
 PlayerPath?
 D:/IGIFTLIFE/MR.DOCTOR.apk
 SceneListBegin?
-Assets/Menu.unity
-Assets/GAME.unity
-Assets/EndGame Window.unity
+Assets/scene/Menu.unity
+Assets/scene/GAME.unity
+Assets/scene/Level2.unity
+Assets/scene/Level3.unity
+Assets/scene/EndGame Window.unity
 SceneListEnd?
 75cd0c6c744b9733ef29aa6c59ece2b1 Assembly-CSharp.dll:TMPro.Examples.VertexZoom
 c906602d9b43cc5e075f80e1d8ae7c79 Assembly-CSharp.dll:TMPro.Examples.Benchmark01_UGUI
@@ -86,7 +88,7 @@ f61c0793411f10cf5fbfa1473fef5ef2 UnityEngine.UI.dll:UnityEngine.UI.ToggleGroup
 86d36c43c53541d667100dc90b89cfba UnityEngine.UI.dll:UnityEngine.EventSystems.TouchInputModule
 1b8c02d0aa82fbf036a2b9b2d713eec3 UnityEngine.UI.dll:UnityEngine.UI.VerticalLayoutGroup
 6a492d7b8465b2c00d15794caa46ec2e Assembly-CSharp.dll:TMPro.Examples.TMPro_InstructionOverlay
-14bca3d406949c2f2008f5feca3cbf04 Assembly-CSharp.dll:.CountDown
+68d8d75c0b3ca334469a393134139345 Assembly-CSharp.dll:.CountDown
 765037da3d8faeee91e39d672b924c61 Assembly-CSharp.dll:.EnvMapAnimator
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
 4b12dd839b2293f8457cd67cc3610b85 UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationTrack
@@ -100,7 +102,7 @@ ff05dcdf90651c3d98a9cad3df5e471e UnityEngine.Timeline.dll:UnityEngine.Timeline.C
 92d7a83ea3c7404e484f3b2eed421855 UnityEngine.Timeline.dll:UnityEngine.Timeline.GroupTrack
 92d7a83ea3c7404e484f3b2eed421855 UnityEngine.Timeline.dll:UnityEngine.Timeline.PlayableTrack
 df374c01140c2d578bf70cbd60073d1d UnityEngine.Timeline.dll:UnityEngine.Timeline.TimelineAsset
-c72dd5fe39174dbaba69ef3e68e7aa8c Assembly-CSharp.dll:.Player_score
+382eef2c6e1f09a22221a01bf42af390 Assembly-CSharp.dll:.Player_score
 76015de5fcb247eeb8df66c001d5a22d Assembly-CSharp.dll:TMPro.Examples.TMP_UiFrameRateCounter
 75cd0c6c744b9733ef29aa6c59ece2b1 Assembly-CSharp.dll:TMPro.Examples.VertexJitter
 fc1e0f4d8439d9928083474691511a13 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkAnimator
@@ -120,7 +122,7 @@ e9bdabf9265d758d56f01bb188916fa8 UnityEngine.Networking.dll:UnityEngine.Networki
 9de3a22eca9aefadba2d10d5987cefe3 UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:TMPro.TMP_PhoneNumberValidator
 1957a9369e72d2661ae9d0de26e7d064 Assembly-CSharp.dll:TMPro.Examples.WarpTextExample
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.MainMenu
+54b23a9b388cbd6232b419b72806b8cf Assembly-CSharp.dll:.MainMenu
 f4bd1aee67eeef7953cce6c44588b3d7 TextMeshPro-2017.3-Runtime.dll:TMPro.TextContainer
 bf22e89fa4b77e86d45d7ae313079474 TextMeshPro-2017.3-Runtime.dll:TMPro.TextMeshPro
 bcada89394089914d10ff70647b120da TextMeshPro-2017.3-Runtime.dll:TMPro.TextMeshProUGUI
@@ -232,8 +234,29 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 6826e26f7cc718f870001971f13e79c7 Assembly-CSharp.dll:TMPro.TMP_TextEventHandler
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:TMPro.Examples.VertexColorCycler
 020550babdb991365f61c5bffe1f4f52 Assembly-CSharp.dll:TMPro.Examples.TextMeshSpawner
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.GameOver
+76f5eb678aec2d8c871c055a66ae583c Assembly-CSharp.dll:.GameOver
 af7666733efcc974926d7d470e1732a6 Assembly-CSharp.dll:TMPro.Examples.SkewTextExample
-771631af1709c5313084a460b790125a Assembly-CSharp.dll:.AudioManager
 34e025057ef78b1bf238460cdf6583a3 Assembly-CSharp.dll:TMPro.Examples.ObjectSpin
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:TMPro.Examples.SimpleScript
+6bc8f6bca51c5ea7c3a6777d6a835978 Assembly-CSharp.dll:.kidney
+5537a04a896fdf74f280a8d840029aac Assembly-CSharp.dll:.skin
+376ce53a6cb5ed63b3be7f0345ea223d Assembly-CSharp.dll:.bone
+f9278a311a89fd66287390816eb91e7d Assembly-CSharp.dll:.liver
+23860463d7b8e3c5b3177354b5c8cae1 Assembly-CSharp.dll:.eyes
+382eef2c6e1f09a22221a01bf42af390 Assembly-CSharp.dll:.Player_score_level2
+496d71acdb1d6350bb9aab452fb43df2 Assembly-CSharp.dll:.CountDownLevel2
+92215bfc095b322ab2e2e86a8127982f Assembly-CSharp.dll:.Heart
+6c3b058ce17ed50a43748ac23b78b355 Assembly-CSharp.dll:.Lungs
+33772fe52a3bd3e632aeb4dfb31f93a6 Assembly-CSharp.dll:.pancreas
+bfeda10d85dd6f038cecd21c45c2202f Assembly-CSharp.dll:.Brain
+382eef2c6e1f09a22221a01bf42af390 Assembly-CSharp.dll:.Player_score_level3
+496d71acdb1d6350bb9aab452fb43df2 Assembly-CSharp.dll:.CountDown_level3
+23860463d7b8e3c5b3177354b5c8cae1 Assembly-CSharp.dll:.eyes1
+5537a04a896fdf74f280a8d840029aac Assembly-CSharp.dll:.skin1
+33772fe52a3bd3e632aeb4dfb31f93a6 Assembly-CSharp.dll:.pancreas1
+6c3b058ce17ed50a43748ac23b78b355 Assembly-CSharp.dll:.Lungs1
+92215bfc095b322ab2e2e86a8127982f Assembly-CSharp.dll:.Heart1
+f9278a311a89fd66287390816eb91e7d Assembly-CSharp.dll:.liver1
+5537a04a896fdf74f280a8d840029aac Assembly-CSharp.dll:.skin2
+6bc8f6bca51c5ea7c3a6777d6a835978 Assembly-CSharp.dll:.kidney1
+23860463d7b8e3c5b3177354b5c8cae1 Assembly-CSharp.dll:.eyes2

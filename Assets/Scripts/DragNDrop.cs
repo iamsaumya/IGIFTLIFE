@@ -57,16 +57,8 @@ public class DragNDrop : MonoBehaviour
     {
         //  use else if to reduse computation power . also this method is not optimal , there is a better ans shoter way of doing things , but let's just keep it simple 
 
-        if ((collision.gameObject.tag == "heart" && gameObject.tag == "heart") || (collision.gameObject.tag == "kidney" && gameObject.tag == "kidney"))
-        {
-            //  Debug.Log("Hello");
-            score.points += 1;
-            Destroy(gameObject);
-            Destroy(collision.gameObject);
-            score.updateSceneIfNeeded();
-        }
 
-        if ((collision.gameObject.tag == "liver" && gameObject.tag == "liver") || (collision.gameObject.tag == "pancreas" && gameObject.tag == "pancreas"))
+        if ((collision.gameObject.tag == "liver" && gameObject.tag == "liver") || (collision.gameObject.tag == "kidney" && gameObject.tag == "kidney")|| (collision.gameObject.tag == "skin" && gameObject.tag == "skin"))
         {
             //  Debug.Log("Hello");
             score.points += 1;
@@ -76,7 +68,7 @@ public class DragNDrop : MonoBehaviour
 
         }
 
-        if (collision.gameObject.tag == "lungs" && gameObject.tag == "lungs")
+        if (collision.gameObject.tag == "bone" && gameObject.tag == "bone" || (collision.gameObject.tag == "cornea" && gameObject.tag == "cornea") || (collision.gameObject.tag == "pancreas" && gameObject.tag == "pancreas"))
         {
             //  Debug.Log("Hello");
             score.points += 1;

@@ -238,14 +238,34 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Player_score.cs" />
-    <Compile Include="Assets\Scripts\AudioManager.cs" />
     <Compile Include="Assets\Scripts\BackToMenu.cs" />
-    <Compile Include="Assets\Scripts\CountDown.cs" />
     <Compile Include="Assets\Scripts\DragNDrop.cs" />
     <Compile Include="Assets\Scripts\GameOver.cs" />
+    <Compile Include="Assets\Scripts\Level1\CountDown.cs" />
+    <Compile Include="Assets\Scripts\Level1\Player_score.cs" />
+    <Compile Include="Assets\Scripts\Level2\CountDownLevel2.cs" />
+    <Compile Include="Assets\Scripts\Level2\Player_score_level2.cs" />
+    <Compile Include="Assets\Scripts\Level3\CountDown_level3.cs" />
+    <Compile Include="Assets\Scripts\Level3\Player_score_level3.cs" />
     <Compile Include="Assets\Scripts\MainMenu.cs" />
-    <Compile Include="Assets\Scripts\Sound.cs" />
+    <Compile Include="Assets\Scripts\Organs\bone.cs" />
+    <Compile Include="Assets\Scripts\Organs\Brain.cs" />
+    <Compile Include="Assets\Scripts\Organs\eyes.cs" />
+    <Compile Include="Assets\Scripts\Organs\eyes1.cs" />
+    <Compile Include="Assets\Scripts\Organs\eyes2.cs" />
+    <Compile Include="Assets\Scripts\Organs\Heart.cs" />
+    <Compile Include="Assets\Scripts\Organs\Heart1.cs" />
+    <Compile Include="Assets\Scripts\Organs\kidney.cs" />
+    <Compile Include="Assets\Scripts\Organs\kidney1.cs" />
+    <Compile Include="Assets\Scripts\Organs\liver.cs" />
+    <Compile Include="Assets\Scripts\Organs\liver1.cs" />
+    <Compile Include="Assets\Scripts\Organs\Lungs.cs" />
+    <Compile Include="Assets\Scripts\Organs\Lungs1.cs" />
+    <Compile Include="Assets\Scripts\Organs\pancreas.cs" />
+    <Compile Include="Assets\Scripts\Organs\pancreas1.cs" />
+    <Compile Include="Assets\Scripts\Organs\skin.cs" />
+    <Compile Include="Assets\Scripts\Organs\skin1.cs" />
+    <Compile Include="Assets\Scripts\Organs\skin2.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
