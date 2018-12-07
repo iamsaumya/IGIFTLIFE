@@ -13,7 +13,7 @@ public class MainMenu : MonoBehaviour {
     public GameObject Level1instructionUI;
     public void PlayGame()
     {
-        StartCoroutine(PauseForsec(6f));
+        StartCoroutine(PauseForsec(10f));
     }
 
     IEnumerator PauseForsec(float delay)

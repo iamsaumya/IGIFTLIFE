@@ -17,7 +17,7 @@ public class Player_score_level2 : MonoBehaviour
         Debug.Log("The actual score is" + points);
         if (points == 2)
         {
-            StartCoroutine(PauseForsec(6f));
+            StartCoroutine(PauseForsec(12f));
         }
     }
 
