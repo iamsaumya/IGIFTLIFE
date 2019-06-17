@@ -4,4 +4,4 @@ It was a part of Service Learning curriculum where we have to help our society b
 I smile big and wide for being fortunate to work for well being of our society. 
 
 # IGIFTLIFE NGO
-[URL](https://igiftlife.com/)
+[IGIFTLIFE](https://igiftlife.com/)
